@@ -9,7 +9,7 @@ ana      = Usuario(nome="Ana",      senha="senha123")
 bruno    = Usuario(nome="Bruno",    senha="dev456")
 lucas    = Usuario(nome="Lucas",    senha="luc789")
 
-sistema = Sistema(taxa=0.05, multa=0.02)
+sistema = Sistema(taxa=0.05, multa=0.02, admin_senha="admin123")
 
 sistema.usuarios = [carlos, fernanda, ana, bruno, lucas]
 
